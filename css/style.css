@@ -1,0 +1,42 @@
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+#myCarousel {
+	margin-top: 5.5% !important;
+}
+
+.myform {
+	padding-right:40px;
+}
+
+.greentitle p {
+	background-color:#008787;
+	margin:65px;
+	color:#FFF;
+	border-radius:5px;
+	margin:20px 20px;
+}
+
+.conteudo {
+	margin-top:120px;
+	padding-right:40px;
+}
+
+body {
+	background-color:#E0E0E0;
+}
+
+.colab {
+	margin-bottom:25px;
+}
+
+.staff {
+	margin-top:50px;
+	margin-bottom:-5px;
+}
+
+.topx {
+	margin-top:150px;
+}

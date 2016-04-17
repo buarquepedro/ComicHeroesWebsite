@@ -22,7 +22,80 @@
     <![endif]-->
   </head>
   <body>
-   
+     <div id="nerd-bootstrap-menu" class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container-fluid">
+          <div class="navbar-header"><a class="navbar-brand" href="#">Nerd News</a>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+              </button>
+          </div>
+          <div class="collapse navbar-collapse navbar-menubuilder">
+              <ul class="nav navbar-nav navbar-left">
+                  <li><a href="index">Home</a></li>
+                  <li><a href="/about-us">Nerd News</a></li>
+                  <li><a href="/about-us">Comics</a></li>
+                  <li><a href="/contact">About Us</a></li>
+              </ul>
+              <form class="myform navbar-form navbar-right" action="https://duckduckgo.com/" method="get" role="search">
+                <div class="form-group">
+                  <input type="text" name="q" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default btn-circle"></button>
+              </form>
+          </div>
+      </div>
+    </div>
+
+    <section class="section-white">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="img/civ.png" alt="...">
+            <div class="carousel-caption">
+              <h2>Heading</h2>
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/dead.png" alt="...">
+            <div class="carousel-caption">
+              <h2>Heading</h2>
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/civ2.jpg" alt="...">
+            <div class="carousel-caption">
+              <h2>Heading</h2>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+    </section>
+
+
+    <footer class="foot">
+      <div class="symbol">
+        <a href="https://www.facebook.com/pjb.santos"><img src="img/face1.png" alt=""></a>
+        <a href="https://www.instagram.com/buarquepedro/"><img src="img/insta1.png" alt=""></a>
+        <a href="https://www.linkedin.com/in/pedro-buarque-b6683910b?trk=nav_responsive_tab_profile"><img src="img/link1.png" alt=""></a>
+      </div>
+      <hr>
+      <p>2016 &copy; Pedro Buarque Santos All rights reserved.</p>
+    </footer>
        
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

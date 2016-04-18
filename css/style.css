@@ -154,6 +154,25 @@
 	box-shadow: 9px 6px 91px 25px rgba(108,104,112,1);
 }
 
+.pic {
+	width:450px;
+	height:450px;
+	border:1px solid #FFF;
+	border-radius:100%;
+	margin-top:20px;
+	margin-bottom:20px;
+	cursor:pointer;
+	transition:0.5s linear;
+}
+
+.title {
+	margin-top:50px;
+}
+
+.space {
+	margin-top:10px;
+}
+
 .foot img {
 	border:1px solid #D3D3D3;
 	border-radius:100%;
